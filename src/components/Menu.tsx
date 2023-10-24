@@ -11,8 +11,8 @@ const Menu = () => {
   }
 
   return (
-    <header className={isMenuOpen ? "overlay" : ""}>
-      <a>
+    <header>
+      <a href="#" className="header-logo">
         <img src={logo} alt="Logo" />
       </a>
 

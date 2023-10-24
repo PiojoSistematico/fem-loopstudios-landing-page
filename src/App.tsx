@@ -29,15 +29,15 @@ import Menu from "./components/Menu";
 function App() {
   return (
     <>
-      <Menu></Menu>
       <section className="hero-section">
+        <Menu></Menu>
         <h1>Immersive experiences that deliver</h1>
       </section>
       <main>
         <div className="leader-section">
           <picture>
-            <img src={imgVRMobile} alt="" className="mobile" />
-            <img src={imgVRDesktop} alt="" className="desktop" />
+            <img src={imgVRMobile} alt="" className="mobile img-leader" />
+            <img src={imgVRDesktop} alt="" className="desktop img-leader" />
           </picture>
           <div className="leader-text">
             <h2>The leader in interactive VR</h2>
@@ -51,49 +51,49 @@ function App() {
         </div>
         <div className="creation-section">
           <h2>Our creations</h2>
-          <div className="stacked">
+          <div className="stacked one">
             <img src={imgDEMobile} alt="" className="mobile" />
             <img src={imgDEDesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">Deep earth</span>
           </div>
-          <div className="stacked">
+          <div className="stacked two">
             <img src={imgNAMobile} alt="" className="mobile" />
             <img src={imgNADesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">Night arcade</span>
           </div>
-          <div className="stacked">
+          <div className="stacked three">
             <img src={imgSTMobile} alt="" className="mobile" />
             <img src={imgSTDesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">Soccer team VR</span>
           </div>
-          <div className="stacked">
+          <div className="stacked four">
             <img src={imgTGMobile} alt="" className="mobile" />
             <img src={imgTGDesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">The grid</span>
           </div>
-          <div className="stacked">
+          <div className="stacked five">
             <img src={imgFAMobile} alt="" className="mobile" />
             <img src={imgFADesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">From up above VR</span>
           </div>
-          <div className="stacked">
+          <div className="stacked six">
             <img src={imgPBMobile} alt="" className="mobile" />
             <img src={imgPBDesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">Pocket borealis</span>
           </div>
-          <div className="stacked">
+          <div className="stacked seven">
             <img src={imgTCMobile} alt="" className="mobile" />
             <img src={imgTCDesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
             <span className="vr-title">The curiosity</span>
           </div>
-          <div className="stacked">
+          <div className="stacked eight">
             <img src={imgMFMobile} alt="" className="mobile" />
             <img src={imgMFDesktop} alt="" className="desktop" />
             <div className="img-overlay"></div>
@@ -103,7 +103,10 @@ function App() {
         </div>
       </main>
       <footer>
-        <img src={logo} alt="" />
+        <picture>
+          <img src={logo} alt="" />
+        </picture>
+
         <nav className="footer-nav">
           <ul>
             <li>
